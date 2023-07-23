@@ -1,0 +1,17 @@
+.reason_title {
+  color: #d9d9d9;
+  font-family: Italiana;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 735px;
+}
+.reasons_why {
+    margin: 0;
+    padding: 55px 0 57px 65px;
+    background-image: url(../../src/img/why_background.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}

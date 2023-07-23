@@ -1,0 +1,47 @@
+.title_menu {
+  color: #fff;
+  font-family: Inter;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  text-align: center;
+  align-items: center;
+  margin: 0;
+}
+.menu_stuff {
+  background: #202023;
+  padding: 21px 73px;
+}
+.menu_list > li {
+  border: 1px solid #fff;
+  width: 328px;
+  height: 229px;
+  flex-shrink: 0;
+}
+.menu_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  gap: 61px;
+}
+.menu_order_btn {
+  width: 160px;
+  height: 41px;
+  flex-shrink: 0;
+  border-radius: 17px;
+  background: #b47b48;
+  border: none;
+}
+.menu_named {
+  color: #fff;
+  font-family: Inter;
+  font-size: 25.92px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-align: center;
+  
+}
+

@@ -1,0 +1,15 @@
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.overlay {
+    background: linear-gradient(66deg, #000 0%, rgba(0, 0, 0, 0.00) 100%);
+
+}
+

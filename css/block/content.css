@@ -1,0 +1,119 @@
+.content_section {
+  background-image: url(../../src/img/main_content_background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.content_section .overlay {
+  padding: 55px 0 36px 0;
+}
+h1 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  width: 561px;
+  height: 170px;
+  padding-top: 71px;
+}
+.content_ul {
+  display: flex;
+  padding: 0;
+  gap: 29px;
+  margin: 0 auto;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+.content_ul > li {
+  color: #fff;
+}
+.content_text {
+  padding: 22px 0 0 0;
+  color: #fff;
+  font-family: Inter;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  width: 570.253px;
+}
+.content_ul > li:hover {
+  transition: 0.8s all;
+  color: rgb(207, 108, 21);
+  cursor: pointer;
+}
+.content_shopnow {
+  border-radius: 17px;
+  background: #b47b48;
+  width: 207px;
+  height: 57px;
+  flex-shrink: 0;
+  border: none;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.content_div {
+  display: flex;
+  flex-direction: column;
+}
+.price {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+.staff_forsale {
+  width: 310px;
+  height: 225px;
+  flex-shrink: 0;
+}
+.back {
+  background: #272727;
+}
+
+.back1 {
+  background: #ebad51;
+}
+.descr_content {
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.content_list {
+  color: #fff;
+  display: flex;
+  gap: 120px;
+}
+.content_buy_button {
+  background: #c85312;
+  width: 79px;
+  height: 34px;
+  flex-shrink: 0;
+}
+.descr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 200px;
+  left: 70px;
+}
+.content_list {
+  padding: 0;
+}
