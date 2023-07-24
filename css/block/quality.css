@@ -1,0 +1,35 @@
+.text_quality {
+  color: #fff;
+  font-family: Italiana;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.quality {
+  background: #202023;
+  background-image: url(../../src/img/quality_background.png);
+}
+.quality_products {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: rgba(242, 242, 242, 0.3);
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(18px);
+  width: 291.475px;
+  height:197px ;
+  padding: 26px 4px 50px 4px;
+  
+  flex-shrink: 0;
+}
+.quality_main-list {
+    display: flex;
+    justify-content: center;
+}
