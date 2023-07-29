@@ -1,0 +1,75 @@
+.footer {
+  background: #202023;
+  padding: 66px 205px 154px 160px;
+}
+.where_footer {
+  color: #fff;
+  font-family: Italiana;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+.info {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.text_footer {
+  color: #fff;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+.social_p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.info_footer {
+  display: flex;
+  gap: 40px;
+}
+.all {
+  display: flex;
+  gap: 162px;
+}
+.how {
+  display: flex;
+  flex-direction: column;
+}
+.when {
+  display: flex;
+  flex-direction: column;
+}
+.where-map {
+  gap: 44px;
+  display: flex;
+  flex-direction: column;
+}
+.text_tradition {
+  color: #fff;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+.want {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}

@@ -7,11 +7,15 @@
   line-height: normal;
   text-align: center;
   margin: 0 auto;
+  padding: 0 0 46px 260px;
+
 }
 
 .quality {
   background: #202023;
-  background-image: url(../../src/img/quality_background.png);
+  position: relative;
+  padding: 10px;
+
 }
 .quality_products {
   color: #fff;
@@ -32,4 +36,22 @@
 .quality_main-list {
     display: flex;
     justify-content: center;
+   
+    height: 700px;
+}
+.li_qua:nth-child(1) {
+    align-self: flex-start;
+
+}
+.li_qua:nth-child(2) {
+    align-self: center;
+}
+.li_qua:nth-child(3) {
+    align-self: flex-end;
+}
+.quality_bg {
+    background-image: url(../../src/img/quality_background.png);
+    background-position: 0 130px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

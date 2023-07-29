@@ -1,1 +1,52 @@
+@media (max-width: 320px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    h1 {
+ text-align: center;
+  font-family: Inter;
+  font-size: 30px;
+  padding-top: 20px;
+  width: auto;
+    }
+    .content_text {
+        padding: 30px;
+        width: auto;
+      
+    }
+    .content_shopnow {
+        width: 120px;
+        height: 40px;
+        font-size: 14px;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .content_list {
+        flex-wrap: wrap;
+        margin: 6px;
+    }
+    .menu_list {
+        display: block;
+        flex-wrap: wrap;
+    }
+    .content_ul {
+        display: none;
+    }
+    .header_box {
+        display: none;
+    }
+    .menu_img >img {
+        width: 70%;
 
+    }
+    .menu_list>li {
+        width: 75%;
+    display: flex;
+    gap: 198px;
+    }
+   
+   
+
+}

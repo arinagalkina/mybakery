@@ -7,11 +7,10 @@
   line-height: normal;
   text-align: center;
   align-items: center;
-  
 }
 .menu_stuff {
   background: #202023;
-  padding: 21px 73px;
+  padding: 21px 0 163px;
 }
 
 .menu_list {
@@ -22,7 +21,6 @@
   margin: 0 auto;
   row-gap: 7px;
   gap: 10px 160px;
-  
 }
 .menu_order_btn {
   width: 160px;
@@ -34,6 +32,13 @@
   display: block;
   margin: 0 auto;
   margin-top: 8px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 25.92px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  cursor: pointer;
 }
 .menu_named {
   color: #fff;
@@ -46,24 +51,22 @@
   margin: 0 auto;
 }
 .menu_box {
-
   border: 1px solid #fff;
   width: 328px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 234px ;
+  height: 234px;
 }
-.menu_img> img {
-    width: 100%;
-    object-fit: contain;
-    height: 100%;
-
+.menu_img > img {
+  width: 100%;
+  object-fit: contain;
+  height: 100%;
 }
 .menu_img {
-    height: 200px;
+  height: 200px;
 }
 .menu_list > li {
-    gap: 198px;
+  gap: 198px;
 }

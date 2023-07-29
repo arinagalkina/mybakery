@@ -8,7 +8,10 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;700;800;900&family=Italiana&display=swap"
       rel="stylesheet"
     />
-
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -17,7 +20,7 @@
   </head>
   <body>
     <main class="main_content">
-      <section class="content_section">
+      <section class="content_section animate__animated animate__fadeIn">
         <div class="overlay">
           <div class="container">
             <div class="content_div">
@@ -30,7 +33,17 @@
                   <li><a class="a_color" href="">Reviews</a></li>
                 </ul>
               </nav>
-              <h1>TRADITIONAL ARTISAX BAKERY</h1>
+              <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="header_box">
+                <a class="signin" href="#">Sign in</a>
+                <button class="btn" onclick="register()">Registration</button>
+              </div>
+         
+              <h1 >TRADITIONAL ARTISAX BAKERY</h1>
               <p class="content_text">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
@@ -42,7 +55,7 @@
               <button class="content_shopnow">SHOP NOW</button>
             </div>
             <ul class="content_list">
-              <li class="staff_forsale back">
+              <li class="stuff_forsale back">
                 <div class="content_inside">
                   <div class="all_content">
                     <img
@@ -57,7 +70,7 @@
                   </div>
                 </div>
               </li>
-              <li class="staff_forsale back">
+              <li class="stuff_forsale back">
                 <div class="content_inside">
                   <div class="all_content">
                     <img
@@ -76,7 +89,7 @@
                 </div>
               </li>
 
-              <li class="staff_forsale back1">
+              <li class="stuff_forsale back1">
                 <div class="content_inside">
                   <div class="all_content"></div>
                   <img src="./src/svg/content_pie3.svg" alt="pie" />
@@ -93,8 +106,9 @@
             </ul>
           </div>
         </div>
+      </div>
       </section>
-      <section class="menu_stuff">
+      <section class="menu_stuff animate__animated   animate__fadeInDown">
         <div class="container">
           <h2 class="title_menu">Menu</h2>
           <ul class="menu_list">
@@ -144,49 +158,55 @@
         </div>
       </section>
       <section class="quality">
-        <h2 class="text_quality">Quality our bekary</h2>
-        <ul class="quality_main-list">
-          <li>
-            <ul class="list_of_numbers">
-              <li><div class="quality_img">
-                <img src="./src/img/quality_bread.png" alt="bread" />
-              </div></li>
-              <div class="quality_products">
-                <li>1.Flour with fresh wheat</li>
-                <li>2.New drozzhi</li>
-                <li>3.Fresh eggs</li>
-                <li>4.Water from the well</li>
-              </div>
-            </ul>
-          </li>
-          <li>
-            <ul class="list_of_numbers">
-              <li><div class="quality_img">
-                <img src="./src/img/quality_cooockie.png" alt="coockie" />
-              </div></li>
-              <div class="quality_products">
-                <li>1.Flour with fresh wheat</li>
-                <li>2.New drozzhi</li>
-                <li>3.Fresh eggs</li>
-                <li>4.Water from the well</li>
-              </div>
-            </ul>
-          </li>
-          <li>
-            <ul class="list_of_numbers">
-              <li><div class="quality_img">
-                <img src="./src/img/quality_pie.png" alt="cherry_pie" />
-              </div></li>
-              <div class="quality_products">
-                <li>1.Flour with fresh wheat</li>
-                <li>2.New drozzhi</li>
-                <li>3.Fresh eggs</li>
-                <li></li>
-                <li>4.Water from the well</li>
-              </div>
-            </ul>
-          </li>
-        </ul>
+       <div class="quality_bg">
+        <div class="container">
+          <div class="quality_text-div">
+            <h2 class="text_quality">Quality our bekary</h2>
+          </div>
+          <ul class="quality_main-list">
+            <li class="li_qua">
+              <ul class="list_of_numbers">
+                <li ><div class="quality_img">
+                  <img src="./src/img/quality_bread.png" alt="bread" />
+                </div></li>
+                <div class="quality_products">
+                  <li>1.Flour with fresh wheat</li>
+                  <li>2.New drozzhi</li>
+                  <li>3.Fresh eggs</li>
+                  <li>4.Water from the well</li>
+                </div>
+              </ul>
+            </li>
+            <li class="li_qua">
+              <ul class="list_of_numbers">
+                <li ><div class="quality_img">
+                  <img src="./src/img/quality_cooockie.png" alt="coockie" />
+                </div></li>
+                <div class="quality_products">
+                  <li class="li_qua">1.Flour with fresh wheat</li>
+                  <li>2.New drozzhi</li>
+                  <li>3.Fresh eggs</li>
+                  <li>4.Water from the well</li>
+                </div>
+              </ul>
+            </li>
+            <li class="li_qua">
+              <ul class="list_of_numbers">
+                <li ><div class="quality_img">
+                  <img src="./src/img/quality_pie.png" alt="cherry_pie" />
+                </div></li>
+                <div class="quality_products">
+                  <li>1.Flour with fresh wheat</li>
+                  <li>2.New drozzhi</li>
+                  <li>3.Fresh eggs</li>
+                  <li></li>
+                  <li>4.Water from the well</li>
+                </div>
+              </ul>
+            </li>
+          </ul>
+        </div>
+       </div>
       </section>
       <section class="reasons_why">
         <div class="overlay_reasons">
@@ -197,7 +217,7 @@
             </h2>
             <ul class="reason_ul">
               <li>
-                <img src="./src/svg/order_why.svg" alt="order" />
+                <img src="./src/svg/order_at_home.svg" alt="order" />
                 <h3 class="explanation_text">Order at home</h3>
               </li>
               <li>
@@ -211,7 +231,47 @@
             </ul>
           </div>
         </div>
+       </div>
       </section>
     </main>
+    <footer class="footer">
+     <div class="container">
+     
+        <div class="where-map">
+          <h2 class="where_footer">Where</h2> </div>
+          <div class="all">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d641.6479762959893!2d36.33443811735164!3d49.96275736668181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41270bb3e5689e81%3A0xebf122c73d20ce26!2z0L_RgC3Rgi4g0JPQtdGA0L7QtdCyINCl0LDRgNGM0LrQvtCy0LAsINCl0LDRgNGM0LrQvtCyLCDQpdCw0YDRjNC60L7QstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCDQo9C60YDQsNC40L3QsCwgNjEwMDA!5e0!3m2!1sru!2suk!4v1690466446280!5m2!1sru!2suk" width="535" height="487" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       
+   <div class="all_together">
+    <div class="info_footer">
+      <div class="how">
+        <h3 class="text_footer">How</h3>
+      <p class="info">+38 055 123 13 12</p> 
+      </div>
+      <div class="when">
+        <h3 class="text_footer">When  </h3>
+        <p class="info">with 8:30 to <br> 20:30</p>
+      </div>
+    </div>
+    
+      <div class="social_media">
+        <p class="social_p">
+          Tik tok.:@TR.Bekary </p>
+  
+ <p class="social_p">Inst:@TR.Bekary</p>
+        
+      
+      </div>
+      </div>
+ </div>
+<div class="tradition">
+  <h2 class="text_tradition">
+    TRADITIONAL 
+  ARTISAX BAKERY
+   </h2>
+   <p class="want">We want be healthy</p>
+</div>
+     </div>
+    </footer>
   </body>
 </html>

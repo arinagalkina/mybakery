@@ -16,6 +16,7 @@
 }
 .overlay_reasons {
   background: linear-gradient(89deg, #000 0%, rgba(3, 3, 3, 0) 100%);
+  padding: 55px 0 52px;
 }
 
 .explanation_text {
