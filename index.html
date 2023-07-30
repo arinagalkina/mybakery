@@ -20,7 +20,7 @@
   </head>
   <body>
     <main class="main_content">
-      <section class="content_section animate__animated animate__fadeIn">
+      <section class="content_section  wow animate__animated animate__fadeIn ">
         <div class="overlay">
           <div class="container">
             <div class="content_div">
@@ -57,11 +57,22 @@
             <ul class="content_list">
               <li class="stuff_forsale back">
                 <div class="content_inside">
-                  <div class="all_content">
-                    <img
-                      src="./src/svg/content_american_cockie.svg"
-                      alt="coockie"
-                    />
+                 
+                    <div class="card">
+                      <div class="all_content">
+                        <img
+                          src="./src/svg/content_american_cockie.svg"
+                          alt="coockie"
+                        />
+                        <div class="text">
+                          <h3>Печиво з шоколадом -</h3>
+                          <p> це смачний десерт, який має легке тісто, в якому вміщені кусочки або стружки шоколаду.
+                             Цей десерт може мати різні форми та розміри, але загальна
+                             риса - це наявність шоколаду, який додає неповторний смаковий досвід.</p>
+                        </div>
+                    </div>
+            
+                  
                   </div>
                   <div class="descr">
                     <h2 class="price">$8.00(kg)</h2>
@@ -72,12 +83,18 @@
               </li>
               <li class="stuff_forsale back">
                 <div class="content_inside">
+                 <div class="card">
                   <div class="all_content">
                     <img
                       src="./src/svg/content_croissant2.svg"
-                      alt="croissant"
-                    />
+                      alt="croissant"/>
                   </div>
+                  <div class="text">
+                    <h3>Круасан - </h3>
+                    <p>це французька випічка у формі напівмісяця з легким масляним тістом, 
+                      яка може бути начинена різноманітними начинками, такими як шоколад, вершковий крем або фруктова повидло.</p>
+                  </div>
+                 </div>
                   <div class="descr">
                     <h2 class="price">$4.00</h2>
                     <p class="descr_content">
@@ -91,8 +108,15 @@
 
               <li class="stuff_forsale back1">
                 <div class="content_inside">
-                  <div class="all_content"></div>
-                  <img src="./src/svg/content_pie3.svg" alt="pie" />
+                  <div class="card">
+                    <div class="all_content">
+                      <img src="./src/svg/pie_content.svg" alt="pie" /></div>
+                  
+                  <div class="text">
+                    <h3>Пиріг з смородиною -</h3>
+                    <p> це чудовий десерт, в якому ягоди чорної смородини стають центральною складовою начинки. Цей пиріг може мати різні форми, наприклад, плоский зі згори або з кришкою тіста, та різні типи тіста, такі як крутое або пісочне.</p>
+                  </div>
+                </div>
                   <div class="descr">
                     <h2 class="price">
                       For piece <br />
@@ -108,7 +132,7 @@
         </div>
       </div>
       </section>
-      <section class="menu_stuff animate__animated   animate__fadeInDown">
+      <section class="menu_stuff wow animate__animated   animate__fadeInDown">
         <div class="container">
           <h2 class="title_menu">Menu</h2>
           <ul class="menu_list">
@@ -167,8 +191,11 @@
             <li class="li_qua">
               <ul class="list_of_numbers">
                 <li ><div class="quality_img">
-                  <img src="./src/img/quality_bread.png" alt="bread" />
+                  <img src="./src/img/quality_bread.png" alt="bread"  />
                 </div></li>
+                <div class="hover_text">
+                  djdhuiihduihsuihus <br> hgjshghesuifhius
+                </div>
                 <div class="quality_products">
                   <li>1.Flour with fresh wheat</li>
                   <li>2.New drozzhi</li>
@@ -176,6 +203,7 @@
                   <li>4.Water from the well</li>
                 </div>
               </ul>
+
             </li>
             <li class="li_qua">
               <ul class="list_of_numbers">
@@ -273,5 +301,9 @@
 </div>
      </div>
     </footer>
-  </body>
+
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
 </html>

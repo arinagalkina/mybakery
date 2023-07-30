@@ -11,6 +11,8 @@
   margin: 0;
   background-image: url(../../src/img/why_background.png);
   width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   object-fit: cover;
 }
@@ -31,5 +33,7 @@
 .reason_ul {
   display: flex;
   justify-content: space-between;
+  margin-top: 132px;
+  padding: 0;
 }
 

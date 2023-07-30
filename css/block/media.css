@@ -50,3 +50,55 @@
    
 
 }
+
+
+@media (min-width: 992px) {
+    .content_section .overlay {
+        padding: 55px 0 36px 100px;
+    }
+    .content_list {
+        flex-wrap: wrap;
+        padding: 0;
+        margin-top: 125px;
+  }
+  .content_inside :nth-child(3) {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .menu_list {
+    gap: 10px 70px;
+    padding: 0;
+  }
+  .quality_main-list {
+    padding: 0;
+
+
+  }
+  .quality_products {
+    width: 253.475px;
+    height: 182px;
+  }
+  .quality_img > img {
+    width: 80%;
+  }
+
+  .text_quality {
+    padding: 0 0 46px 190px;
+  }
+  .overlay_reasons {
+    padding: 55px 59px 52px;
+  }
+}
+
+
+
+@media ( min-width: 1200px ) {
+    .container {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+
+}

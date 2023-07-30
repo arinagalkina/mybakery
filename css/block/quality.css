@@ -8,14 +8,12 @@
   text-align: center;
   margin: 0 auto;
   padding: 0 0 46px 260px;
-
 }
 
 .quality {
   background: #202023;
   position: relative;
   padding: 10px;
-
 }
 .quality_products {
   color: #fff;
@@ -28,30 +26,43 @@
   box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(18px);
   width: 291.475px;
-  height:197px ;
+  height: 197px;
   padding: 26px 4px 50px 4px;
-  
+
   flex-shrink: 0;
 }
 .quality_main-list {
-    display: flex;
-    justify-content: center;
-   
-    height: 700px;
+  display: flex;
+  justify-content: center;
+
+  height: 700px;
 }
 .li_qua:nth-child(1) {
-    align-self: flex-start;
-
+  align-self: flex-start;
 }
 .li_qua:nth-child(2) {
-    align-self: center;
+  align-self: center;
 }
 .li_qua:nth-child(3) {
-    align-self: flex-end;
+  align-self: flex-end;
 }
 .quality_bg {
-    background-image: url(../../src/img/quality_background.png);
-    background-position: 0 130px;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(../../src/img/quality_background.png);
+  background-position: 0 130px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hover_text {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgba(145, 124, 124, 0.7); 
+  color: rgb(49, 23, 23); 
+  padding: 10px;
+  display: none;
+}
+.quality_products:hover .hover_text{
+  display: block; 
+  transition: 0.8s all;
 }
