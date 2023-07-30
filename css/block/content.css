@@ -4,9 +4,7 @@
   background-position: center;
   background-repeat: no-repeat;
 }
-.content_section .overlay {
-  padding: 55px 0 36px 0;
-}
+
 h1 {
   color: #fff;
   font-family: Inter;
@@ -98,6 +96,7 @@ h1 {
   margin: 0 auto;
 }
 .content_list {
+  flex-wrap: wrap;
   color: #fff;
   display: flex;
   gap: 120px;
@@ -236,6 +235,7 @@ h1 {
   transition : 0.3s ease-in-out;
   border-radius : 15px;
 }
+
 
 
 
