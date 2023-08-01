@@ -17,10 +17,12 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+
   width: 860px;
   margin: 0 auto;
-  row-gap: 7px;
   gap: 10px 160px;
+  display: flex;
+
 }
 .menu_order_btn {
   width: 160px;

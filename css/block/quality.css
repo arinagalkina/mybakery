@@ -34,7 +34,7 @@
 .quality_main-list {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  margin: 0 auto;
 
   height: 700px;
 }
