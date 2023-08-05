@@ -74,3 +74,23 @@
   font-weight: 300;
   line-height: normal;
 }
+
+.all_info_footer {
+
+  display: flex;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  gap: 146px;
+}
+.footer_info_ul {
+  padding: 0;
+}
+.all_footer {
+  display: flex;
+  gap: 131px;
+  margin-top: 40px;
+}
