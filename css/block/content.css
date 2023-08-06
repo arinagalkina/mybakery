@@ -201,7 +201,7 @@ h1 {
 
 .container .card .text {
   position : absolute;
-  top : -81;
+  bottom : 240px;
   height: 100px;
   padding : 10px 15px;
   color : #d0d0d0;
