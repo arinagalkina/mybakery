@@ -243,8 +243,17 @@
     gap: 198px;
   }
   .text_quality {
-    font-size: 14px;
+    font-size: 28px;
   }
+
+
+  .text_tradition {
+    font-size: 29px;
+}
+.iframe {
+   height: 400px;
+    width: 150px;
+}
 }
 
 

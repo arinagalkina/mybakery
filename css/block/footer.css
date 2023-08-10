@@ -40,6 +40,7 @@
 .info_footer {
   display: flex;
   gap: 40px;
+  flex-wrap: wrap;
 }
 .all {
   display: flex;
@@ -52,6 +53,7 @@
 .when {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 .where-map {
   gap: 44px;
@@ -85,6 +87,7 @@
   font-weight: 300;
   line-height: normal;
   gap: 146px;
+  flex-wrap: wrap;
 }
 .footer_info_ul {
   padding: 0;
@@ -93,4 +96,5 @@
   display: flex;
   gap: 50px;
   margin-top: 40px;
+  flex-wrap: wrap;
 }
