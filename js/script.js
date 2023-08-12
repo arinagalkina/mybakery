@@ -1,5 +1,5 @@
 window.addEventListener("DOMContentLoaded", () => {
-    const menu = document.querySelector(".header_menu");
+    const menu = document.querySelector(".nav_content");
     const hamburger = document.querySelector(".hamburger");
   
     hamburger.addEventListener("click", () => {

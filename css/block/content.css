@@ -12,7 +12,6 @@ h1 {
   font-style: normal;
   font-weight: 200;
   line-height: normal;
-  width: 561px;
   height: 170px;
   padding-top: 71px;
 }
@@ -157,8 +156,26 @@ h1 {
   height: 100%;
   object-fit: contain;
 }
-.hamburger {
+.nav_content {
   display: block;
+  width: 80%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 20;
+  transition: 0.6s all;
+  background-color: rgba(0,0,0,0.8);
+ 
+
+
+}
+.hamburger {
+  display:none;
   position: absolute;
   right: 10px;
   transform: translateY(-50%);
@@ -183,6 +200,12 @@ h1 {
 .hamburger_active span:nth-child(3) {
   transform: translateY(-3px) rotate(45deg);
 }
+.menu_active {
+  left: 0;
+
+}
+
+
 
 
 
