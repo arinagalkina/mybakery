@@ -9,7 +9,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin: 0;
+  margin-bottom: 44px;
 }
 .info {
   color: #fff;
@@ -94,7 +94,10 @@
 }
 .all_footer {
   display: flex;
-  gap: 50px;
   margin-top: 40px;
   flex-wrap: wrap;
+  justify-content: space-between;
+}
+.tradition {
+  width: 322px;
 }

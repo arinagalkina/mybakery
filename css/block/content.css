@@ -156,24 +156,7 @@ h1 {
   height: 100%;
   object-fit: contain;
 }
-.nav_content {
-  display: block;
-  width: 80%;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: -100%;
-  padding: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 20;
-  transition: 0.6s all;
-  background-color: rgba(0,0,0,0.8);
- 
 
-
-}
 .hamburger {
   display:none;
   position: absolute;
@@ -200,10 +183,7 @@ h1 {
 .hamburger_active span:nth-child(3) {
   transform: translateY(-3px) rotate(45deg);
 }
-.menu_active {
-  left: 0;
 
-}
 
 
 
