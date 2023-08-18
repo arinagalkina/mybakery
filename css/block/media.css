@@ -31,6 +31,8 @@
     flex-wrap: wrap;
     padding: 0;
     margin-top: 125px;
+    gap: 81px;
+    justify-content: center;
   }
   .content_inside :nth-child(3) {
     display: block;
@@ -52,6 +54,13 @@
   }
   .quality_main-list {
     padding: 0;
+    flex-wrap: wrap;
+  }
+  .all {
+    flex-wrap: wrap;
+  }
+  .quality {
+    height: 1176px;
   }
   .quality_products {
     width: 253.475px;
@@ -174,6 +183,9 @@
     h1 {
       font-size: 56px;
     }
+    .content_inside{
+      width: 263px;
+    }
     
     .hamburger {
       display: block;
@@ -229,7 +241,7 @@
     h1 {
       text-align: center;
       font-family: Inter;
-      font-size: 30px;
+      font-size: 34px;
       padding-top: 20px;
       width: auto;
     }
@@ -249,11 +261,11 @@
       flex-wrap: wrap;
       margin: 6px;
       justify-content: center;
-      width: 130px;
+     
     }
     .menu_list {
       flex-wrap: wrap;
-      width: 500px;
+      width: auto;
     }
     .content_ul {
       display: none;
@@ -270,6 +282,8 @@
       display: flex;
       gap: 0;
       flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
     .text_quality {
       font-size: 37px;
@@ -288,9 +302,7 @@
   .reason_title {
     font-size: 26px;
   }
-  .menu_order_btn {
-    margin-left: 70px;
-  }
+
   .descr_content {
     align-items: center;
   }

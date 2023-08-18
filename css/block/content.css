@@ -12,7 +12,6 @@ h1 {
   font-style: normal;
   font-weight: 200;
   line-height: normal;
-  height: 170px;
   padding-top: 71px;
 }
 .content_ul {
@@ -38,7 +37,6 @@ h1 {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  width: 570.253px;
 }
 .content_ul > li:hover {
   transition: 0.8s all;
