@@ -58,6 +58,15 @@ h1 {
   line-height: normal;
   cursor: pointer;
 }
+.content_buy_button:hover {
+background-color: #a6410e;
+transition: 0.6s all;
+}
+.content_shopnow:hover { 
+  background-color: rgba(130, 20, 20, 10);
+  transition: 0.6s all;
+
+}
 .content_div {
   display: flex;
   flex-direction: column;
@@ -117,6 +126,7 @@ h1 {
   font-style: normal;
   font-weight: 900;
   line-height: normal;
+  cursor: pointer;
 }
 .descr {
   display: flex;
