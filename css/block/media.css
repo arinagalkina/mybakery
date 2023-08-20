@@ -3,14 +3,21 @@
   .container {
     max-width: 1140px;
     margin: 0 auto;
+    padding: 45px;
   }
 
   .quality_img > img {
     width: 100%;
   }
+  .quality_img {
+    width: 270px;
+  }
 
   .quality {
     padding: 0;
+  }
+  .quality_products {
+    width: 275px;
   }
  
   
@@ -24,6 +31,7 @@
     max-width: 720px;
     margin: 0 auto;
   }
+  
 
 
   .content_list {
@@ -39,9 +47,7 @@
     justify-content: center;
     margin: 0 auto;
   }
-  .hamburger {
-    display: none;
-  }
+
 
   .menu_list {
     gap: 10px 70px;
@@ -314,7 +320,7 @@
   
  
 }
-
+}
 
 
 
